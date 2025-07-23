@@ -12,3 +12,42 @@ a {
   color: #333;
   text-decoration: none;
 }
+.ticket-wrap {
+  width: 1200px;
+  margin: auto;
+  background-color: rgb(255, 251, 234);
+  display: flex;
+  gap: 20px;
+}
+.ticket-wrap > li {
+  width: calc(100% / 4);
+}
+.ticket-img {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #d8d8d8;
+}
+.ticket-img > img {
+  width: 100%;
+  display: block;
+}
+.ticket-info {
+  padding: 20px 10px;
+}
+.ticket-info > ul > li > b {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+.only {
+  background-color: rgba(193, 212, 255, 0.5);
+  width: 75px;
+  text-align: center;
+  height: 28px;
+  line-height: calc(28px - 2px);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(0, 30, 197);
+  margin-top: 10px;
+}
